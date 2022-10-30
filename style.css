@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "popins";
+    background: #FAF8ED;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 135px ;
+    background: #FAF8ED;
+    margin-bottom: 89px;
+    
+}
+.nav{
+    display: flex;
+    gap:72px;  
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    gap:36px;
+}
+.navigation a{
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.01em;
+color: #2E476B;
+text-decoration: none;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 51px;
+}
+.section h1{
+font-weight: 600;
+font-size: 56px;
+line-height: 66px;
+color: #2D3134;
+margin-bottom: 16px;
+
+}
+.section p{
+font-weight: 4000;
+font-size: 16px;
+line-height: 16px;
+color: #5B5F62;
+margin-bottom: 28px;
+}
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.group a{
+    text-decoration: none;
+    border:1px solid #3D3D3D;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #2D3134;
+}
+.back{  
+  background:#2D3134 ;
+}
+.back span{
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "erti ori ori sami sami"
+    "otxi ori ori xuti ekvsi";
+    gap:26px 30px;
+    padding: 0 135px;
+}
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   border-radius: 20px;
+}
+
+.first{
+    grid-area: erti; 
+ }
+ .second{
+     grid-area: ori; 
+ }
+ .third
+ {
+     grid-area: sami;
+ }
+ .fourth{
+     grid-area:otxi;
+ }
+ .fifth{
+     grid-area:xuti;
+ }
+ .six{
+     grid-area: ekvsi;
+ } 
+ .footer{
+     display: flex;
+     
+     padding: 84px 135px;
+ }
+ .logo_two{
+     display: flex;
+     flex-direction: column;
+     margin-right: 275px;
+ }
+ .menu{
+     display: flex;
+     flex-direction: column;
+ }
+ .menubar{
+     display: flex;
+     gap: 113px;
+ }
+ .menu a{
+     text-decoration: none;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 34px;
+     color: #676A6C;
+ }
+ .logo_two a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    color: #676A6C;
+}
+.logo_two img{
+    width: 98px;
+height: 35px;
+ }
